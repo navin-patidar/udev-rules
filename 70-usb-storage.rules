@@ -1,0 +1,1 @@
+KERNEL=="sd?*",DRIVERS=="usb-storage",SYMLINK+="usb_storage/%k",RUN+="/usr/bin/python /home/git-dev/usb_sec/client/src/mount.py %k"
