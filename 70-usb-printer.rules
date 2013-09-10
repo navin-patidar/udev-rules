@@ -1,0 +1,1 @@
+DRIVER=="usblp", RUN+="/etc/init.d/cups restart"
